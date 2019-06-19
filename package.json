@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node buildScripts/srcServer.js"
+    "prestart": "node buildScripts/startMessage.js",
+    "start": "node buildScripts/srcServer.js",
+    "localtunnel": "lt --port 3000 --subdomain atikfahad",
+    "share": "npm-run-all --parallel start localtunnel"
   },
   "repository": {
     "type": "git",
