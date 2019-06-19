@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node buildScripts/srcServer.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/atikfahad/js-starter-kit.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Atik Fahad",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/atikfahad/js-starter-kit/issues"
